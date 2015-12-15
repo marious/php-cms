@@ -1,0 +1,1 @@
+<p style="color: red; font-size: 28px; margin-top: 5px; clear: both; padding-top: 10px;">Sorry, you don't have access to this page please <a href="<?php echo HOST_NAME ?>login">login</a> as administrator first.</p>

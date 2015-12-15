@@ -1,0 +1,170 @@
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0px auto -4em;
+
+}
+
+.wrapper {
+    margin-top: 100px;
+}
+
+.container h2 {font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+footer {
+    height: 4em;
+    clear: both;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav ul li:last-child a {border-right: none; width:68px;}
+
+nav  {
+    margin-top: 35px;
+}
+
+
+h3 {
+    font-family: Arial;
+    margin-bottom: 0 !important;
+}
+
+p {
+    margin-top: 5px !important;
+}
+
+
+.admin-form table {
+    width: 100%;
+}
+
+.admin-form table tr td {
+    padding: 5px;
+}
+
+.admin-form p {margin-bottom: 6px;}
+
+.admin-form table tr td label {
+    font: bold 0.95em Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.admin-form table tr td  p {
+    font:  0.85em Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.admin-form table tr td  input[type="text"],
+.admin-form table tr td textarea,
+.admin-form table tr td select {
+    width: 98%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: 0.85em verdana, sanserif;
+    color: #666;
+}
+
+.admin-form table tr td  input[type="text"]:focus,
+.admin-form table tr td select:focus{
+    border: 1px solid #EC8E08;
+}
+
+.admin-form table tr td textarea {
+    height: 200px;
+}
+.admin-form table tr td  textarea:focus {
+    border: 2px solid #EC8E08;
+}
+
+.admin-form table tr td input[type="submit"] {
+    color: #666;
+    background: #e4e4e4;
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 5px;
+    font: 0.85em arial;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+p.error,
+p.success{
+    border-radius: 5px;
+    background: red;
+    font: 0.85 Arial;
+    color: white;
+    padding: 5px;
+    margin: 0 0 5px 0;
+}
+
+p.error {
+    background: red;
+}
+
+p.success {
+    background: green;
+}
+
+.admin-table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.admin-table tr th, .admin-table tr td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.admin-table tr th {
+    background: #e4e4e4;
+    color: #666;
+    text-align: left;
+    font: bold 0.9em Arial, Helvetica;
+}
+
+.admin-table tr td {
+    font:  0.85em Arial, Helvetica;
+    color: #333;
+}
+
+.admin-table tr:nth-child(odd) {
+    background: #f1f1f1;
+}
+
+.admin-table td.button a {
+    display: inline-block;
+}
+
+.admin-table td.button a:first-child {
+    margin-right: 10px;
+    margin-left: 8px;
+    color: forestgreen;
+    font-size: 20px;
+}
+
+.admin-table td.button a:last-child {
+    color: red;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+a.add-link:link, a.add-link:visited {
+    font: 0.85em arial, helvetica;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin: 15px 0 10px 0;
+}
+
+.active {background: #ECECEC;}

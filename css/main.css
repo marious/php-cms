@@ -1,0 +1,350 @@
+@import "normalize.css";
+@import url(font-awesome.min.css);
+@font-face{
+    font-family: colossalis;
+    src: url('Colossalis Bold.ttf');
+}
+
+/* Main Style */
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #888;
+    border-top: 8px solid #EC8E08;
+}
+
+h1, h2, h3 {
+    font-family: 'colossalis';
+    color: #EC8E08;
+}
+
+h3 {font-size: 24px;}
+
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.column-one-third {
+    width: 33.3333%;
+    float: left;
+}
+
+.column-two-third {
+    width: 66.6666%;
+    float: left;
+}
+
+.column-one-fourth {
+    width: 25%;
+    float: left;
+}
+
+.column-one-one {
+    width: 100%;
+    clear: both;
+}
+
+
+
+/* Header style */
+
+
+.logo {
+    width: 400px;
+    float: left;
+}
+
+.logo h1 {
+    margin-top: 0;
+    position: relative;
+}
+
+.logo h1 a:link, .logo h1 a:visited {
+    font-size: 2.2em;
+    color: #EC8E08;
+    text-decoration: none;
+
+}
+
+.logo h1 a span {
+    color: #a1a1a1;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 36px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    padding-left: 5px;
+    display: inline-block;
+    border-left: 2px solid #a1a1a1;
+}
+
+/* social style */
+div.social {
+    width: 200px;
+    float: right;
+}
+
+.social p {
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.social ul li {
+    float: left;
+    margin-right: .5em;
+}
+
+.social ul li a {
+    font-size: 40px;
+    color: #969696;
+
+}
+
+i.facebook:hover { color: #597AA5;}
+i.youtube:hover {color: #CE5D60;}
+i.twitter:hover {color: #9BDFE4;}
+i.google:hover {color: #D72705;}
+
+.social ul li i {
+    transition: color 0.5s ease 0s;
+}
+
+
+
+
+
+/*=================== Nav style ===================*/
+nav {
+    clear: both;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+nav ul {
+    width: 70%;
+    float: left;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li:first-child {border-left: none;}
+
+nav ul li a  {
+    text-decoration: none;
+    color: #888;
+    text-align: center;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    padding: 15px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease 0s;
+}
+
+nav ul li a:hover {background: #ECECEC;}
+
+nav ul li a.current {background: #ececec;}
+
+nav ul li:first-child a {border-left: none;}
+nav ul li:last-child a {border-right: 1px solid #ccc;}
+
+nav form {
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+nav form input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f2f2f2;
+    padding-left: 8px;
+}
+
+form button {
+    border: none;
+    background: none;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+
+
+/* ================== slider style ======================*/
+.slider {
+    width: 960px;
+    height: 260px;
+    /*background: url(../images/slider-bg.jpg);*/
+    margin-top: 18px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    clear: both;
+}
+
+.clear {clear: both;}
+
+
+/* ================== custom style for cms ========================= */
+.column-one-one h3 {
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 24px;
+}
+
+
+
+/* ================== about style ======================*/
+.about .column-one-third {
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.about .column-one-third li {
+    line-height: 1.8;
+}
+
+/* ================== team style ======================*/
+.team .column-one-fourth p {width: 220px}
+
+.team .column-one-fourth .image-container {position: relative;}
+
+.team .column-one-fourth .image-caption {
+    background: #A3A3A3;
+    text-align: center;
+    padding: 10px;
+    width: 220px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+}
+
+/* ================== footer style ======================*/
+footer {
+    background: #636363;
+    border-top: 8px solid #EC8E08;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+footer h3 {color: #fff;}
+
+footer ul {overflow: hidden;}
+
+footer ul li {
+    float: left;
+    margin-right: 8px;
+}
+
+.footer-content {
+    border-bottom: 1px solid #888;
+    color: #a1a1a1;
+}
+
+footer .copy {
+    text-align: center;
+}
+
+/* clearfix
+  ========================================================================== */
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+/* Register form
+===================================================================== */
+
+.register-form {
+    margin-top: 25px;
+}
+
+.register-form table {
+    width: 100%;
+}
+
+.register-form table tr td {
+    padding: 5px;
+}
+
+.register-form p {margin-bottom: 0; margin-top: 3px;}
+
+.register-form table tr td label {
+    font: bold 0.95em Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.register-form table tr td  p {
+    font:  0.85em Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.register-form table tr td  input[type="text"],
+.register-form table tr td  input[type="email"],
+.register-form table tr td  input[type="password"],
+.register-form table tr td textarea {
+    width: 98%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: 0.85em verdana, sanserif;
+    color: #666;
+}
+
+.register-form table tr td  input[type="text"]:focus,
+.register-form table tr td  input[type="email"]:focus,
+.register-form table tr td  input[type="password"]:focus{
+    border: 1px solid #EC8E08;
+}
+
+.register-form table tr td textarea {
+    height: 200px;
+}
+.register-form table tr td  textarea:focus {
+    border: 2px solid #EC8E08;
+}
+
+.register-form table tr td input[type="submit"] {
+    color: #666;
+    background: #e4e4e4;
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 5px;
+    font: 0.85em arial;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+p.error {
+    background: red;
+    color: #fff !important;
+    padding: 5px 0 5px 10px !important;
+    border-radius: 3px;
+}
+
+p.success {
+    background: green;
+    color: #fff !important;
+    padding: 5px 0 5px 10px !important;
+    border-radius: 3px;
+}
+
+.welcome-message {
+    clear: both !important;
+    float: right !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.welcome-message a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.85em;
+}
